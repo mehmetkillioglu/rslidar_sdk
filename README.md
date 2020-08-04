@@ -16,8 +16,12 @@ git clone https://github.com/mehmetkillioglu/rslidar_sdk.git
 cd rslidar_sdk
 git submodule init
 git submodule update
+cd ..
 ```
 - Clone [link](https://github.com/RoboSense-LiDAR/rslidar_msg) repository into Colco workspace's src folder
+```sh
+git clone https://github.com/RoboSense-LiDAR/rslidar_msg.git
+```
 - Go back to workspace and run the command "colcon build" 
 - Run the demo by
 ```sh
